@@ -1,0 +1,38 @@
+.Form {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.form_input {
+  display: flex;
+}
+.input {
+  flex: 1;
+  border-radius: 3px;
+  border: solid 2px #e5e5e5;
+  padding-left: 15px;
+}
+.is-error {
+  flex: 1;
+  border-radius: 3px;
+  border: solid 2px #e5e5e5;
+  padding-left: 15px;
+  box-shadow: 0px 0px 10px -1px red;
+}
+.button {
+  padding: 7px 25px;
+  color: #fff;
+  background-color: rgb(35, 35, 123);
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form_btn {
+  padding: 7px 25px;
+  color: #fff;
+  background-color: rgb(35, 35, 123);
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.5;
+}
